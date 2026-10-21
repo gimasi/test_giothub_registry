@@ -1,0 +1,29 @@
+{
+  "config": {},
+  "state": {
+    "battery_mv": {
+      "value": 2400,
+      "ts": "2026-01-01T00:00:00Z"
+    },
+    "probe_ok": {
+      "value": false,
+      "ts": "2026-01-01T00:00:00Z"
+    }
+  },
+  "timeseries": [
+    {
+      "key": "battery_mv",
+      "ts": "2026-01-01T00:00:00Z",
+      "value": 2400,
+      "time_valid": true
+    }
+  ],
+  "events": [],
+  "records": [],
+  "protocol": {},
+  "warnings": [
+    "probe error: temperature and humidity not measured",
+    "battery low (2400 mV)"
+  ],
+  "errors": []
+}

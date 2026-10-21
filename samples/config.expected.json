@@ -1,0 +1,14 @@
+{
+  "config": {
+    "measurement_interval_s": 3600,
+    "temp_high_c": 30,
+    "temp_low_c": 5
+  },
+  "state": {},
+  "timeseries": [],
+  "events": [],
+  "records": [],
+  "protocol": {},
+  "warnings": [],
+  "errors": []
+}

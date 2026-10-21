@@ -1,0 +1,46 @@
+{
+  "config": {},
+  "state": {
+    "battery_mv": {
+      "value": 3600,
+      "ts": "2026-01-01T00:00:00Z"
+    },
+    "humidity": {
+      "value": 55,
+      "ts": "2026-01-01T00:00:00Z"
+    },
+    "probe_ok": {
+      "value": true,
+      "ts": "2026-01-01T00:00:00Z"
+    },
+    "temperature": {
+      "value": 23.45,
+      "ts": "2026-01-01T00:00:00Z"
+    }
+  },
+  "timeseries": [
+    {
+      "key": "battery_mv",
+      "ts": "2026-01-01T00:00:00Z",
+      "value": 3600,
+      "time_valid": true
+    },
+    {
+      "key": "temperature",
+      "ts": "2026-01-01T00:00:00Z",
+      "value": 23.45,
+      "time_valid": true
+    },
+    {
+      "key": "humidity",
+      "ts": "2026-01-01T00:00:00Z",
+      "value": 55,
+      "time_valid": true
+    }
+  ],
+  "events": [],
+  "records": [],
+  "protocol": {},
+  "warnings": [],
+  "errors": []
+}

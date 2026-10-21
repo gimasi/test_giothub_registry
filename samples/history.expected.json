@@ -1,0 +1,29 @@
+{
+  "config": {},
+  "state": {},
+  "timeseries": [
+    {
+      "key": "temperature",
+      "ts": "2026-10-06T09:00:00Z",
+      "value": 22,
+      "time_valid": true
+    },
+    {
+      "key": "temperature",
+      "ts": "2026-10-06T09:30:00Z",
+      "value": 23,
+      "time_valid": true
+    },
+    {
+      "key": "temperature",
+      "ts": "2026-10-06T10:00:00Z",
+      "value": 24,
+      "time_valid": true
+    }
+  ],
+  "events": [],
+  "records": [],
+  "protocol": {},
+  "warnings": [],
+  "errors": []
+}

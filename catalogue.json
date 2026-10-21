@@ -1,0 +1,15 @@
+{
+  "keys": [
+    { "key": "temperature", "classes": ["STATE", "TIMESERIES"], "type": "number", "unit": "Cel", "label": "Temperature" },
+    { "key": "humidity", "classes": ["STATE", "TIMESERIES"], "type": "integer", "unit": "%", "label": "Relative humidity" },
+    { "key": "battery_mv", "classes": ["STATE", "TIMESERIES"], "type": "integer", "unit": "mV", "label": "Battery voltage" },
+    { "key": "probe_ok", "classes": ["STATE"], "type": "boolean", "label": "Probe working" },
+    { "key": "fw_version", "classes": ["STATE"], "type": "string", "label": "Firmware version" },
+    { "key": "reset_reason", "classes": ["STATE"], "type": "string", "label": "Last reset reason" },
+    { "key": "alarm", "classes": ["EVENT"], "type": "object", "label": "Temperature or tamper alarm",
+      "description": "body: code (TEMP_HIGH, TEMP_LOW, TAMPER), raised (bool), temperature (degC)" },
+    { "key": "measurement_interval_s", "classes": ["CONFIG"], "type": "integer", "unit": "s", "label": "Measurement interval" },
+    { "key": "temp_high_c", "classes": ["CONFIG"], "type": "number", "unit": "Cel", "label": "High temperature alarm" },
+    { "key": "temp_low_c", "classes": ["CONFIG"], "type": "number", "unit": "Cel", "label": "Low temperature alarm" }
+  ]
+}

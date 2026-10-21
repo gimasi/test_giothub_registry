@@ -1,0 +1,12 @@
+{
+  "config": {},
+  "state": {},
+  "timeseries": [],
+  "events": [],
+  "records": [],
+  "protocol": {},
+  "warnings": [],
+  "errors": [
+    "unknown frame type 0x7f"
+  ]
+}

@@ -1,0 +1,15 @@
+format: 1
+id: ch.gimasi.test.gitregistry
+name: Git registry test sensor
+vendor: Gimasi SA
+version: 1.0.0
+codec: javascript
+protocol: uplink-only
+engine: ">=0.1.0"
+channel: stable
+visibility: private
+listing:
+  short_description: Temperature and humidity logger with alarms - the reference JavaScript device type
+  categories: [temperature, environment, example]
+  website: https://www.gimasi.ch
+  support_email: support@gimasi.ch
